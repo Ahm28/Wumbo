@@ -21,7 +21,7 @@ export default function MainSection2() {
                 </span>{" "}
                 Templates Ready to Use
               </Typography>
-              <Typography variant="subtitle2" sx={{ color: "#697B98", my: 3 }}>
+              <Typography variant="subtitle2" color="#697B98" sx={{ my: 3 }}>
                 Many design choices make it free for you to make a different
                 design every time you post. There are 80+ designs with 10+
                 different layouts. Each layout has several designs with the same

@@ -1,10 +1,14 @@
 import { Box } from "@mui/system";
 import ResponsiveAppBar from "./Components/AppBar/AppBar";
+import Footer from "./Components/Footer/Footer";
 import Heroes from "./Components/Heroes.js/Index";
 import MainSection from "./Components/MainSection/MainSection";
 import MainSection2 from "./Components/MainSection/MainSection2";
 import { MainSection3 } from "./Components/MainSection/MainSection3";
 import MainSection4 from "./Components/MainSection/MainSection4";
+import { MainSection5 } from "./Components/MainSection/MainSection5";
+import MainSection6 from "./Components/MainSection/MainSection6";
+import MainSection7 from "./Components/MainSection/MainSection7";
 
 function App() {
   return (
@@ -23,8 +27,13 @@ function App() {
         <MainSection2 />
         <MainSection3 />
         <MainSection4 />
+        <MainSection5 />
+        <MainSection6 />
+        <MainSection7 />
       </Box>
-      <Box></Box>
+      <Box>
+        <Footer />
+      </Box>
     </>
   );
 }

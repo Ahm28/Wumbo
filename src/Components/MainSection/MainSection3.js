@@ -20,7 +20,7 @@ export const MainSection3 = () => {
             <Box>
               <Typography variant="h4" sx={{ color: "#193766" }}>
                 Design Templates Are Highly Customizable,{" "}
-                <span style={{ textDecoration: "underine" }}>
+                <span style={{ textDecoration: "underline" }}>
                   it's easy to use!
                 </span>
               </Typography>

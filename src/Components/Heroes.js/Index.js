@@ -5,14 +5,20 @@ import HeroesRight from "./HeroesSide/HeroesRight";
 
 export default function Heroes() {
   return (
-    <Box sx={{ height: "700px" }}>
-      <Grid container sx={{ alignItems: "center" }}>
-        <Grid item xs={6}>
+    <Box sx={{ minHeight: "700px" }}>
+      <Grid
+        container
+        sx={{
+          alignItems: "center",
+          flexDirection: { xs: "column", md: "row" },
+        }}
+      >
+        <Grid item xs={6} sx={{ order: { xs: 1, md: 1 } }}>
           <Container>
             <HeroesLeft />
           </Container>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={6} sx={{ order: { xs: 2, md: 2 } }}>
           <HeroesRight />
         </Grid>
       </Grid>
